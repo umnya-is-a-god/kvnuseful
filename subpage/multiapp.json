@@ -1,10 +1,7 @@
 {
   "locales": [
     "en",
-    "ru",
-    "zh",
-    "fa",
-    "fr"
+    "ru"
   ],
   "version": "1",
   "uiConfig": {
@@ -12,660 +9,52 @@
     "installationGuidesBlockType": "cards"
   },
   "platforms": {
-    "ios": {
-      "apps": [
-        {
-          "name": "Clash Mi",
-          "blocks": [
-            {
-              "title": {
-                "en": "App Installation",
-                "fa": "نصب برنامه",
-                "fr": "Installation de l'application",
-                "ru": "Установка приложения",
-                "zh": "应用安装"
-              },
-              "buttons": [
-                {
-                  "link": "https://apps.apple.com/us/app/clash-mi/id6744321968",
-                  "text": {
-                    "en": "Open in App Store",
-                    "fa": "باز کردن در App Store",
-                    "fr": "Ouvre dans l’App Store",
-                    "ru": "Открыть в App Store",
-                    "zh": "在 App Store 打开"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "DownloadIcon",
-              "description": {
-                "en": "Open the App Store page and install the app.",
-                "fa": "صفحه App Store را باز کرده و برنامه را نصب کنید.",
-                "fr": "Ouvre la page de l’App Store et installe l’app.",
-                "ru": "Откройте страницу в App Store и установите приложение.",
-                "zh": "打开 App Store 页面并安装应用。"
-              },
-              "svgIconColor": "blue"
-            },
-            {
-              "title": {
-                "en": "Add Subscription",
-                "fa": "اضافه کردن اشتراک",
-                "fr": "Ajouter une souscription",
-                "ru": "Добавление подписки",
-                "zh": "添加订阅"
-              },
-              "buttons": [
-                {
-                  "link": "clashmi://install-config?xhwid=true&overwrite=no&name={{USERNAME}}&url={{SUBSCRIPTION_LINK}}",
-                  "text": {
-                    "en": "Add Subscription",
-                    "fa": "اضافه کردن اشتراک",
-                    "fr": "Ajouter une souscription",
-                    "ru": "Добавить подписку",
-                    "zh": "添加订阅"
-                  },
-                  "type": "subscriptionLink",
-                  "svgIconKey": "Plus"
-                }
-              ],
-              "svgIconKey": "CloudDownload",
-              "description": {
-                "en": "Click the button below — the app will open and the subscription will be added automatically",
-                "fa": "برای افزودن خودکار اشتراک روی دکمه زیر کلیک کنید - برنامه باز خواهد شد",
-                "fr": "Clique sur le bouton ci‑dessous — l’app s’ouvrira et l’abonnement sera ajouté automatiquement.",
-                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
-                "zh": "点击下方按钮，应用将会打开，并自动添加订阅"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Connect and use",
-                "fa": "متصل شوید و استفاده کنید",
-                "fr": "Se connecter et utiliser",
-                "ru": "Подключение и использование",
-                "zh": "连接并使用"
-              },
-              "buttons": [],
-              "svgIconKey": "Check",
-              "description": {
-                "en": "On the main screen, tap the Disconnected button, then in the VPN configuration prompt tap Allow and enter your password to connect.",
-                "fa": "در صفحه اصلی روی دکمه Disconnected بزنید، سپس در پنجره مجوز پیکربندی VPN روی Allow ضربه بزنید و برای اتصال، رمز عبور خود را وارد کنید.",
-                "fr": "Sur l’écran principal, appuie sur « Disconnected », puis, dans la demande de configuration VPN, appuie sur « Allow » et entre ton mot de passe pour te connecter.",
-                "ru": "На главной странице нажми кнопку Disconnected,  в появившемся окне разрешения VPN-конфигурации нажмите Allow и введите свой пароль для подключения к VPN.",
-                "zh": "在主屏幕点击 Disconnected 按钮，然后在 VPN 配置提示中点击允许并输入您的密码以连接。"
-              },
-              "svgIconColor": "teal"
-            }
-          ],
-          "featured": true,
-          "svgIconKey": "ClashMi"
-        },
-        {
-          "name": "Happ",
-          "blocks": [
-            {
-              "title": {
-                "en": "App Installation",
-                "fa": "نصب برنامه",
-                "fr": "Installation de l'application",
-                "ru": "Установка приложения",
-                "zh": "应用安装"
-              },
-              "buttons": [
-                {
-                  "link": "https://apps.apple.com/ru/app/happ-proxy-utility/id6783623643",
-                  "text": {
-                    "en": "App Store (RU)",
-                    "fa": "اپ استور (RU)",
-                    "fr": "App Store (RU)",
-                    "ru": "App Store (RU)",
-                    "zh": "App Store (RU)"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                },
-                {
-                  "link": "https://apps.apple.com/us/app/happ-proxy-utility/id6504287215",
-                  "text": {
-                    "en": "App Store (Global)",
-                    "fa": "اپ استور (جهانی)",
-                    "fr": "App Store (Global)",
-                    "ru": "App Store (Global)",
-                    "zh": "App Store (Global)"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "DownloadIcon",
-              "description": {
-                "en": "Open the page in App Store and install the app. Launch it, in the VPN configuration permission window click Allow and enter your passcode.",
-                "fa": "صفحه را در App Store باز کنید و برنامه را نصب کنید. آن را اجرا کنید، در پنجره مجوز پیکربندی VPN روی Allow کلیک کنید و رمز عبور خود را وارد کنید.",
-                "fr": "Ouvre la page de l’App Store et installe l’app. Lance-la ; dans la fenêtre d’autorisation de configuration VPN, appuie sur « Allow » puis entre ton code.",
-                "ru": "Откройте страницу в App Store и установите приложение. Запустите его, в окне разрешения VPN-конфигурации нажмите Allow и введите свой пароль.",
-                "zh": "在 App Store 打开页面并安装应用。启动应用后，在 VPN 配置权限窗口点击“允许”，并输入您的密码。"
-              },
-              "svgIconColor": "violet"
-            },
-            {
-              "title": {
-                "en": "Add Subscription",
-                "fa": "اضافه کردن اشتراک",
-                "fr": "Ajouter une souscription",
-                "ru": "Добавление подписки",
-                "zh": "添加订阅"
-              },
-              "buttons": [
-                {
-                  "link": "happ://add/{{SUBSCRIPTION_LINK}}",
-                  "text": {
-                    "en": "Add Subscription",
-                    "fa": "اضافه کردن اشتراک",
-                    "fr": "Ajouter une souscription",
-                    "ru": "Добавить подписку",
-                    "zh": "添加订阅"
-                  },
-                  "type": "subscriptionLink",
-                  "svgIconKey": "Plus"
-                }
-              ],
-              "svgIconKey": "CloudDownload",
-              "description": {
-                "en": "Click the button below — the app will open and the subscription will be added automatically",
-                "fa": "برای افزودن خودکار اشتراک روی دکمه زیر کلیک کنید - برنامه باز خواهد شد",
-                "fr": "Clique sur le bouton ci‑dessous — l’app s’ouvrira et l’abonnement sera ajouté automatiquement.",
-                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
-                "zh": "点击下方按钮，应用将会打开，并自动添加订阅"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Connect and use",
-                "fa": "متصل شوید و استفاده کنید",
-                "fr": "Se connecter et utiliser",
-                "ru": "Подключение и использование",
-                "zh": "连接并使用"
-              },
-              "buttons": [],
-              "svgIconKey": "Check",
-              "description": {
-                "en": "In the main section, click the large power button in the center to connect to VPN. Don't forget to select a server from the server list. If needed, choose another server from the server list.",
-                "fa": "در بخش اصلی، دکمه بزرگ روشن/خاموش در مرکز را برای اتصال به VPN کلیک کنید. فراموش نکنید که یک سرور را از لیست سرورها انتخاب کنید. در صورت نیاز، سرور دیگری را از لیست سرورها انتخاب کنید.",
-                "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre.",
-                "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов.",
-                "zh": "在主界面，点击中央的大电源按钮以连接 VPN。不要忘记从服务器列表中选择服务器。如有需要，可选择其它服务器。"
-              },
-              "svgIconColor": "teal"
-            }
-          ],
-          "featured": true,
-          "svgIconKey": "Happ"
-        }
-      ],
-      "svgIconKey": "AppleIcon",
-      "displayName": {
-        "en": "iOS",
-        "fa": "iOS",
-        "fr": "iOS",
-        "ru": "iOS",
-        "zh": "iOS"
-      }
-    },
-    "linux": {
-      "apps": [
-        {
-          "name": "Clash Mi",
-          "blocks": [
-            {
-              "title": {
-                "en": "App Installation",
-                "fa": "نصب برنامه",
-                "fr": "Installation de l'application",
-                "ru": "Установка приложения",
-                "zh": "应用安装"
-              },
-              "buttons": [
-                {
-                  "link": "https://clashmi.app/download",
-                  "text": {
-                    "en": "Download",
-                    "fa": "دانلود",
-                    "fr": "Télécharger",
-                    "ru": "Скачать",
-                    "zh": "下载"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "DownloadIcon",
-              "description": {
-                "en": "Open the download page and install the app.",
-                "fa": "صفحه دانلود را باز کرده و برنامه را نصب کنید.",
-                "fr": "Ouvre la page de téléchargement et installe l’app.",
-                "ru": "Откройте страницу загрузки и установите приложение.",
-                "zh": "打开下载页面并安装应用。"
-              },
-              "svgIconColor": "blue"
-            },
-            {
-              "title": {
-                "en": "Add Subscription",
-                "fa": "اضافه کردن اشتراک",
-                "fr": "Ajouter une souscription",
-                "ru": "Добавление подписки",
-                "zh": "添加订阅"
-              },
-              "buttons": [
-                {
-                  "link": "clashmi://install-config?xhwid=true&overwrite=no&name={{USERNAME}}&url={{SUBSCRIPTION_LINK}}",
-                  "text": {
-                    "en": "Add Subscription",
-                    "fa": "اضافه کردن اشتراک",
-                    "fr": "Ajouter une souscription",
-                    "ru": "Добавить подписку",
-                    "zh": "添加订阅"
-                  },
-                  "type": "subscriptionLink",
-                  "svgIconKey": "Plus"
-                }
-              ],
-              "svgIconKey": "CloudDownload",
-              "description": {
-                "en": "Click the button below — the app will open and the subscription will be added automatically",
-                "fa": "برای افزودن خودکار اشتراک روی دکمه زیر کلیک کنید - برنامه باز خواهد شد",
-                "fr": "Clique sur le bouton ci‑dessous — l’app s’ouvrira et l’abonnement sera ajouté automatiquement.",
-                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
-                "zh": "点击下方按钮，应用将会打开，并自动添加订阅"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Connect and use",
-                "fa": "متصل شوید و استفاده کنید",
-                "fr": "Se connecter et utiliser",
-                "ru": "Подключение и использование",
-                "zh": "连接并使用"
-              },
-              "buttons": [],
-              "svgIconKey": "Check",
-              "description": {
-                "en": "On the main screen, tap the Disconnected button, then in the VPN configuration prompt tap Allow and enter your password to connect.",
-                "fa": "در صفحه اصلی روی دکمه Disconnected بزنید، سپس در پنجره مجوز پیکربندی VPN روی Allow ضربه بزنید و برای اتصال، رمز عبور خود را وارد کنید.",
-                "fr": "Sur l’écran principal, appuie sur « Disconnected », puis, dans la demande de configuration VPN, appuie sur « Allow » et entre ton mot de passe pour te connecter.",
-                "ru": "На главной странице нажми кнопку Disconnected,  в появившемся окне разрешения VPN-конфигурации нажмите Allow и введите свой пароль для подключения к VPN.",
-                "zh": "在主屏幕点击 Disconnected 按钮，然后在 VPN 配置提示中点击允许并输入您的密码以连接。"
-              },
-              "svgIconColor": "teal"
-            }
-          ],
-          "featured": true,
-          "svgIconKey": "ClashMi"
-        },
-        {
-          "name": "Happ",
-          "blocks": [
-            {
-              "title": {
-                "en": "App Installation",
-                "fa": "نصب برنامه",
-                "fr": "Installation de l'application",
-                "ru": "Установка приложения",
-                "zh": "应用安装"
-              },
-              "buttons": [
-                {
-                  "link": "https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.linux.x64.deb",
-                  "text": {
-                    "en": "Linux",
-                    "fa": "لینوکس",
-                    "fr": "Linux",
-                    "ru": "Linux",
-                    "zh": "Linux"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "DownloadIcon",
-              "description": {
-                "en": "Choose the version for your device, click the button below and install the app.",
-                "fa": "نسخه مناسب برای دستگاه خود را انتخاب کنید، دکمه زیر را فشار دهید و برنامه را نصب کنید",
-                "fr": "Choisis la version pour ton appareil, clique sur le bouton ci‑dessous et installe l'app.",
-                "ru": "Выберите подходящую версию для вашего устройства, нажмите на кнопку ниже и установите приложение.",
-                "zh": "选择适合您设备的版本，点击下方按钮并安装应用程序。"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Add Subscription",
-                "fa": "اضافه کردن اشتراک",
-                "fr": "Ajouter une souscription",
-                "ru": "Добавление подписки",
-                "zh": "添加订阅"
-              },
-              "buttons": [
-                {
-                  "link": "happ://add/{{SUBSCRIPTION_LINK}}",
-                  "text": {
-                    "en": "Add Subscription",
-                    "fa": "اضافه کردن اشتراک",
-                    "fr": "Ajouter une souscription",
-                    "ru": "Добавить подписку",
-                    "zh": "添加订阅"
-                  },
-                  "type": "subscriptionLink",
-                  "svgIconKey": "Plus"
-                }
-              ],
-              "svgIconKey": "CloudDownload",
-              "description": {
-                "en": "Click the button below — the app will open and the subscription will be added automatically",
-                "fa": "برای افزودن خودکار اشتراک روی دکمه زیر کلیک کنید - برنامه باز خواهد شد",
-                "fr": "Clique sur le bouton ci‑dessous — l'app s'ouvrira et l'abonnement sera ajouté automatiquement.",
-                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
-                "zh": "点击下方按钮——应用将会打开，订阅会自动添加。"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Connect and use",
-                "fa": "متصل شوید و استفاده کنید",
-                "fr": "Se connecter et utiliser",
-                "ru": "Подключение и использование",
-                "zh": "连接并使用"
-              },
-              "buttons": [],
-              "svgIconKey": "Check",
-              "description": {
-                "en": "In the main section, click the large power button in the center to connect to VPN. Don't forget to select a server from the server list. If needed, choose another server from the server list.",
-                "fa": "در بخش اصلی، دکمه بزرگ روشن/خاموش در مرکز را برای اتصال به VPN کلیک کنید. فراموش نکنید که یک سرور را از لیست سرورها انتخاب کنید. در صورت نیاز، سرور دیگری را از لیست سرورها انتخاب کنید.",
-                "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N'oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre.",
-                "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов.",
-                "zh": "在主界面，点击中央的大电源按钮以连接 VPN。不要忘记从服务器列表中选择服务器。如有需要，可选择其它服务器。"
-              },
-              "svgIconColor": "teal"
-            }
-          ],
-          "featured": false,
-          "svgIconKey": "Happ"
-        }
-      ],
-      "svgIconKey": "Ubuntu",
-      "displayName": {
-        "en": "Linux",
-        "fa": "Linux",
-        "fr": "Linux",
-        "ru": "Linux",
-        "zh": "Linux"
-      }
-    },
-    "macos": {
-      "apps": [
-        {
-          "name": "Clash Mi",
-          "blocks": [
-            {
-              "title": {
-                "en": "App Installation",
-                "fa": "نصب برنامه",
-                "fr": "Installation de l'application",
-                "ru": "Установка приложения",
-                "zh": "应用安装"
-              },
-              "buttons": [
-                {
-                  "link": "https://clashmi.app/download",
-                  "text": {
-                    "en": "Download",
-                    "fa": "دانلود",
-                    "fr": "Télécharger",
-                    "ru": "Скачать",
-                    "zh": "下载"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "DownloadIcon",
-              "description": {
-                "en": "Open the download page and install the app.",
-                "fa": "صفحه دانلود را باز کرده و برنامه را نصب کنید.",
-                "fr": "Ouvre la page de téléchargement et installe l’app.",
-                "ru": "Откройте страницу загрузки и установите приложение.",
-                "zh": "打开下载页面并安装应用。"
-              },
-              "svgIconColor": "blue"
-            },
-            {
-              "title": {
-                "en": "Add Subscription",
-                "fa": "اضافه کردن اشتراک",
-                "fr": "Ajouter une souscription",
-                "ru": "Добавление подписки",
-                "zh": "添加订阅"
-              },
-              "buttons": [
-                {
-                  "link": "clashmi://install-config?xhwid=true&overwrite=no&name={{USERNAME}}&url={{SUBSCRIPTION_LINK}}",
-                  "text": {
-                    "en": "Add Subscription",
-                    "fa": "اضافه کردن اشتراک",
-                    "fr": "Ajouter une souscription",
-                    "ru": "Добавить подписку",
-                    "zh": "添加订阅"
-                  },
-                  "type": "subscriptionLink",
-                  "svgIconKey": "Plus"
-                }
-              ],
-              "svgIconKey": "CloudDownload",
-              "description": {
-                "en": "Click the button below — the app will open and the subscription will be added automatically",
-                "fa": "برای افزودن خودکار اشتراک روی دکمه زیر کلیک کنید - برنامه باز خواهد شد",
-                "fr": "Clique sur le bouton ci‑dessous — l’app s’ouvrira et l’abonnement sera ajouté automatiquement.",
-                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
-                "zh": "点击下方按钮，应用将会打开，并自动添加订阅"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Connect and use",
-                "fa": "متصل شوید و استفاده کنید",
-                "fr": "Se connecter et utiliser",
-                "ru": "Подключение и использование",
-                "zh": "连接并使用"
-              },
-              "buttons": [],
-              "svgIconKey": "Check",
-              "description": {
-                "en": "On the main screen, tap the Disconnected button, then in the VPN configuration prompt tap Allow and enter your password to connect.",
-                "fa": "در صفحه اصلی روی دکمه Disconnected بزنید، سپس در پنجره مجوز پیکربندی VPN روی Allow ضربه بزنید و برای اتصال، رمز عبور خود را وارد کنید.",
-                "fr": "Sur l’écran principal, appuie sur « Disconnected », puis, dans la demande de configuration VPN, appuie sur « Allow » et entre ton mot de passe pour te connecter.",
-                "ru": "На главной странице нажми кнопку Disconnected,  в появившемся окне разрешения VPN-конфигурации нажмите Allow и введите свой пароль для подключения к VPN.",
-                "zh": "在主屏幕点击 Disconnected 按钮，然后在 VPN 配置提示中点击允许并输入您的密码以连接。"
-              },
-              "svgIconColor": "teal"
-            }
-          ],
-          "featured": true,
-          "svgIconKey": "ClashMi"
-        },
-        {
-          "name": "Happ",
-          "blocks": [
-            {
-              "title": {
-                "en": "App Installation",
-                "fa": "نصب برنامه",
-                "fr": "Installation de l'application",
-                "ru": "Установка приложения",
-                "zh": "应用安装"
-              },
-              "buttons": [
-                {
-                  "link": "https://apps.apple.com/ru/app/happ-proxy-utility/id6783623643",
-                  "text": {
-                    "en": "App Store (RU)",
-                    "fa": "اپ استور (RU)",
-                    "fr": "App Store (RU)",
-                    "ru": "App Store (RU)",
-                    "zh": "App Store (RU)"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                },
-                {
-                  "link": "https://apps.apple.com/us/app/happ-proxy-utility/id6504287215",
-                  "text": {
-                    "en": "App Store (Global)",
-                    "fa": "اپ استور (جهانی)",
-                    "fr": "App Store (Global)",
-                    "ru": "App Store (Global)",
-                    "zh": "App Store (Global)"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "DownloadIcon",
-              "description": {
-                "en": "Choose the version for your device, click the button below and install the app.",
-                "fa": "نسخه مناسب برای دستگاه خود را انتخاب کنید، دکمه زیر را فشار دهید و برنامه را نصب کنید",
-                "fr": "Choisis la version pour ton appareil, clique sur le bouton ci‑dessous et installe l’app.",
-                "ru": "Выберите подходящую версию для вашего устройства, нажмите на кнопку ниже и установите приложение.",
-                "zh": "选择适合您设备的版本，点击下方按钮并安装应用程序。"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Add Subscription",
-                "fa": "اضافه کردن اشتراک",
-                "fr": "Ajouter une souscription",
-                "ru": "Добавление подписки",
-                "zh": "添加订阅"
-              },
-              "buttons": [
-                {
-                  "link": "happ://add/{{SUBSCRIPTION_LINK}}",
-                  "text": {
-                    "en": "Add Subscription",
-                    "fa": "اضافه کردن اشتراک",
-                    "fr": "Ajouter une souscription",
-                    "ru": "Добавить подписку",
-                    "zh": "添加订阅"
-                  },
-                  "type": "subscriptionLink",
-                  "svgIconKey": "Plus"
-                }
-              ],
-              "svgIconKey": "CloudDownload",
-              "description": {
-                "en": "Click the button below — the app will open and the subscription will be added automatically",
-                "fa": "برای افزودن خودکار اشتراک روی دکمه زیر کلیک کنید - برنامه باز خواهد شد",
-                "fr": "Clique sur le bouton ci‑dessous — l’app s’ouvrira et l’abonnement sera ajouté automatiquement.",
-                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
-                "zh": "点击下方按钮——应用将会打开，订阅会自动添加。"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Connect and use",
-                "fa": "متصل شوید و استفاده کنید",
-                "fr": "Se connecter et utiliser",
-                "ru": "Подключение и использование",
-                "zh": "连接并使用"
-              },
-              "buttons": [],
-              "svgIconKey": "Check",
-              "description": {
-                "en": "In the main section, click the large power button in the center to connect to VPN. Don't forget to select a server from the server list. If needed, choose another server from the server list.",
-                "fa": "در بخش اصلی، دکمه بزرگ روشن/خاموش در مرکز را برای اتصال به VPN کلیک کنید. فراموش نکنید که یک سرور را از لیست سرورها انتخاب کنید. در صورت نیاز، سرور دیگری را از لیست سرورها انتخاب کنید.",
-                "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre.",
-                "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов.",
-                "zh": "在主界面，点击中央的大电源按钮以连接 VPN。不要忘记从服务器列表中选择服务器。如有需要，可选择其它服务器。"
-              },
-              "svgIconColor": "teal"
-            }
-          ],
-          "featured": true,
-          "svgIconKey": "Happ"
-        }
-      ],
-      "svgIconKey": "macOS",
-      "displayName": {
-        "en": "macOS",
-        "fa": "macOS",
-        "fr": "macOS",
-        "ru": "macOS",
-        "zh": "macOS"
-      }
-    },
     "android": {
       "apps": [
         {
-          "name": "Clash Mi",
+          "name": "sing-box",
           "blocks": [
             {
               "title": {
-                "en": "App Installation",
-                "fa": "نصب برنامه",
-                "fr": "Installation de l'application",
-                "ru": "Установка приложения",
-                "zh": "应用安装"
+                "en": "Add Subscription",
+                "ru": "Добавление подписки"
               },
               "buttons": [
                 {
-                  "link": "https://clashmi.app/download",
+                  "link": "{{SUBSCRIPTION_LINK}}",
                   "text": {
-                    "en": "Download",
-                    "fa": "دانلود",
-                    "fr": "Télécharger",
-                    "ru": "Скачать",
-                    "zh": "下载"
+                    "en": "Open Subscription Link",
+                    "ru": "Открыть ссылку подписки"
                   },
                   "type": "external",
                   "svgIconKey": "ExternalLink"
                 }
               ],
-              "svgIconKey": "DownloadIcon",
+              "svgIconKey": "CloudDownload",
               "description": {
-                "en": "Open the download page and install the app.",
-                "fa": "صفحه دانلود را باز کرده و برنامه را نصب کنید.",
-                "fr": "Ouvre la page de téléchargement et installe l’app.",
-                "ru": "Откройте страницу загрузки и установите приложение.",
-                "zh": "打开下载页面并安装应用。"
+                "en": "Open the subscription link and import it into your sing-box client.",
+                "ru": "Откройте ссылку подписки и импортируйте её в клиент sing-box."
               },
-              "svgIconColor": "blue"
-            },
+              "svgIconColor": "cyan"
+            }
+          ],
+          "featured": false,
+          "svgIconKey": "Singbox"
+        },
+        {
+          "name": "Clash Mi",
+          "blocks": [
             {
               "title": {
                 "en": "Add Subscription",
-                "fa": "اضافه کردن اشتراک",
-                "fr": "Ajouter une souscription",
-                "ru": "Добавление подписки",
-                "zh": "添加订阅"
+                "ru": "Добавление подписки"
               },
               "buttons": [
                 {
                   "link": "clashmi://install-config?xhwid=true&overwrite=no&name={{USERNAME}}&url={{SUBSCRIPTION_LINK}}",
                   "text": {
                     "en": "Add Subscription",
-                    "fa": "اضافه کردن اشتراک",
-                    "fr": "Ajouter une souscription",
-                    "ru": "Добавить подписку",
-                    "zh": "添加订阅"
+                    "ru": "Добавить подписку"
                   },
                   "type": "subscriptionLink",
                   "svgIconKey": "Plus"
@@ -674,31 +63,9 @@
               "svgIconKey": "CloudDownload",
               "description": {
                 "en": "Click the button below — the app will open and the subscription will be added automatically",
-                "fa": "برای افزودن خودکار اشتراک روی دکمه زیر کلیک کنید - برنامه باز خواهد شد",
-                "fr": "Clique sur le bouton ci‑dessous — l’app s’ouvrira et l’abonnement sera ajouté automatiquement.",
-                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
-                "zh": "点击下方按钮，应用将会打开，并自动添加订阅"
+                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически."
               },
               "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Connect and use",
-                "fa": "متصل شوید و استفاده کنید",
-                "fr": "Se connecter et utiliser",
-                "ru": "Подключение и использование",
-                "zh": "连接并使用"
-              },
-              "buttons": [],
-              "svgIconKey": "Check",
-              "description": {
-                "en": "On the main screen, tap the Disconnected button, then in the VPN configuration prompt tap Allow and enter your password to connect.",
-                "fa": "در صفحه اصلی روی دکمه Disconnected بزنید، سپس در پنجره مجوز پیکربندی VPN روی Allow ضربه بزنید و برای اتصال، رمز عبور خود را وارد کنید.",
-                "fr": "Sur l’écran principal, appuie sur « Disconnected », puis, dans la demande de configuration VPN, appuie sur « Allow » et entre ton mot de passe pour te connecter.",
-                "ru": "На главной странице нажми кнопку Disconnected,  в появившемся окне разрешения VPN-конфигурации нажмите Allow и введите свой пароль для подключения к VPN.",
-                "zh": "在主屏幕点击 Disconnected 按钮，然后在 VPN 配置提示中点击允许并输入您的密码以连接。"
-              },
-              "svgIconColor": "teal"
             }
           ],
           "featured": true,
@@ -709,65 +76,15 @@
           "blocks": [
             {
               "title": {
-                "en": "App Installation",
-                "fa": "نصب برنامه",
-                "fr": "Installation de l'application",
-                "ru": "Установка приложения",
-                "zh": "应用安装"
-              },
-              "buttons": [
-                {
-                  "link": "https://play.google.com/store/apps/details?id=com.happproxy",
-                  "text": {
-                    "en": "Open in Google Play",
-                    "fa": "باز کردن در Google Play",
-                    "fr": "Ouvre dans Google Play",
-                    "ru": "Открыть в Google Play",
-                    "zh": "在 Google Play 打开"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                },
-                {
-                  "link": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
-                  "text": {
-                    "en": "Download APK",
-                    "fa": "دانلود APK",
-                    "fr": "Télécharge l’APK",
-                    "ru": "Скачать APK",
-                    "zh": "下载 APK"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "DownloadIcon",
-              "description": {
-                "en": "Open the page in Google Play and install the app. Or install the app directly from the APK file if Google Play is not working.",
-                "fa": "صفحه را در Google Play باز کنید و برنامه را نصب کنید. یا برنامه را مستقیماً از فایل APK نصب کنید، اگر Google Play کار نمی کند.",
-                "fr": "Ouvre la page dans Google Play et installe l’app. Si Google Play ne fonctionne pas, installe‑la directement via l’APK.",
-                "ru": "Откройте страницу в Google Play и установите приложение. Или установите приложение из APK файла напрямую, если Google Play не работает.",
-                "zh": "在 Google Play 打开页面并安装应用。如果 Google Play 无法使用，也可以直接通过 APK 文件安装此应用。"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
                 "en": "Add Subscription",
-                "fa": "اضافه کردن اشتراک",
-                "fr": "Ajouter une souscription",
-                "ru": "Добавление подписки",
-                "zh": "添加订阅"
+                "ru": "Добавление подписки"
               },
               "buttons": [
                 {
                   "link": "happ://add/{{SUBSCRIPTION_LINK}}",
                   "text": {
                     "en": "Add Subscription",
-                    "fa": "اضافه کردن اشتراک",
-                    "fr": "Ajouter une souscription",
-                    "ru": "Добавить подписку",
-                    "zh": "添加订阅"
+                    "ru": "Добавить подписку"
                   },
                   "type": "subscriptionLink",
                   "svgIconKey": "Plus"
@@ -776,31 +93,9 @@
               "svgIconKey": "CloudDownload",
               "description": {
                 "en": "Click the button below to add subscription",
-                "fa": "برای افزودن اشتراک روی دکمه زیر کلیک کنید",
-                "fr": "Clique sur le bouton ci‑dessous pour ajouter l’abonnement.",
-                "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
-                "zh": "点击下方按钮以添加订阅"
+                "ru": "Нажмите кнопку ниже, чтобы добавить подписку"
               },
               "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Connect and use",
-                "fa": "متصل شوید و استفاده کنید",
-                "fr": "Se connecter et utiliser",
-                "ru": "Подключение и использование",
-                "zh": "连接并使用"
-              },
-              "buttons": [],
-              "svgIconKey": "Check",
-              "description": {
-                "en": "Open the app and connect to the server",
-                "fa": "برنامه را باز کنید و به سرور متصل شوید",
-                "fr": "Ouvre l’app et connecte‑toi au serveur.",
-                "ru": "Откройте приложение и подключитесь к серверу",
-                "zh": "打开应用并连接到服务器"
-              },
-              "svgIconColor": "teal"
             }
           ],
           "featured": true,
@@ -810,212 +105,55 @@
       "svgIconKey": "Android",
       "displayName": {
         "en": "Android",
-        "fa": "Android",
-        "fr": "Android",
-        "ru": "Android",
-        "zh": "Android"
+        "ru": "Android"
       }
     },
-    "appleTV": {
+    "ios": {
       "apps": [
         {
-          "name": "Happ",
+          "name": "sing-box",
           "blocks": [
             {
               "title": {
-                "en": "App Installation",
-                "fa": "نصب برنامه",
-                "fr": "Installation de l'application",
-                "ru": "Установка приложения",
-                "zh": "应用安装"
-              },
-              "buttons": [
-                {
-                  "link": "https://apps.apple.com/us/app/happ-proxy-utility-for-tv/id6748297274",
-                  "text": {
-                    "en": "App Store",
-                    "fa": "App Store",
-                    "fr": "App Store",
-                    "ru": "App Store",
-                    "zh": "App Store"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "DownloadIcon",
-              "description": {
-                "en": "Open the page in the App Store on your Apple TV and install the app. Launch it, allow VPN configuration if prompted, and enter your passcode if required.",
-                "fa": "صفحه را در App Store بر روی Apple TV باز کنید و برنامه را نصب کنید. آن را اجرا کنید، در صورت درخواست مجوز پیکربندی VPN را بدهید و در صورت نیاز رمز عبور خود را وارد کنید.",
-                "fr": "Open the page in the App Store on your Apple TV and install the app. Launch it, allow VPN configuration if prompted, and enter your passcode if required.",
-                "ru": "Откройте страницу в App Store на Apple TV и установите приложение. Запустите его, предоставьте разрешение на VPN-конфигурацию, если потребуется, и введите свой пароль.",
-                "zh": "在 Apple TV 的 App Store 打开页面并安装应用。启动后，如有提示请允许 VPN 配置，并在需要时输入您的密码。"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Installation instructions",
-                "fa": "دستورالعمل نصب",
-                "fr": "Installation instructions",
-                "ru": "Инструкции по установке",
-                "zh": "安装说明"
-              },
-              "buttons": [
-                {
-                  "link": "https://www.happ.su/main/ru/faq/apple-tv-tvos",
-                  "text": {
-                    "en": "In Russian",
-                    "fa": "به زبان روسی",
-                    "fr": "In Russian",
-                    "ru": "На русском",
-                    "zh": "俄语"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                },
-                {
-                  "link": "https://www.happ.su/main/faq/apple-tv-tvos",
-                  "text": {
-                    "en": "In English",
-                    "fa": "به زبان انگلیسی",
-                    "fr": "In English",
-                    "ru": "На английском",
-                    "zh": "英语"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "Gear",
-              "description": {
-                "en": "Detailed instructions to help you set up Happ on your device.",
-                "fa": "راهنمای دقیق برای کمک به تنظیم Happ روی دستگاه شما.",
-                "fr": "Detailed instructions to help you set up Happ on your device.",
-                "ru": "Подробные инструкции, чтобы помочь вам настроить Happ на вашем устройстве.",
-                "zh": "详细说明，帮助您在设备上设置 Happ。"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
                 "en": "Add Subscription",
-                "fa": "اضافه کردن اشتراک",
-                "fr": "Ajouter une souscription",
-                "ru": "Добавление подписки",
-                "zh": "添加订阅"
+                "ru": "Добавление подписки"
               },
               "buttons": [
                 {
-                  "link": "happ://add/{{SUBSCRIPTION_LINK}}",
+                  "link": "{{SUBSCRIPTION_LINK}}",
                   "text": {
-                    "en": "Add Subscription",
-                    "fa": "اضافه کردن اشتراک",
-                    "fr": "Ajouter une souscription",
-                    "ru": "Добавить подписку",
-                    "zh": "添加订阅"
+                    "en": "Open Subscription Link",
+                    "ru": "Открыть ссылку подписки"
                   },
-                  "type": "subscriptionLink",
-                  "svgIconKey": "Plus"
+                  "type": "external",
+                  "svgIconKey": "ExternalLink"
                 }
               ],
               "svgIconKey": "CloudDownload",
               "description": {
-                "en": "Click the button below to add subscription, if you opened the subscription page on your TV",
-                "fa": "برای افزودن اشتراک روی دکمه زیر کلیک کنید، اگر صفحه اشتراک را روی تلویزیون باز کرده‌اید",
-                "fr": "Click the button below to add subscription, if you opened the subscription page on your TV.",
-                "ru": "Нажмите кнопку ниже, чтобы добавить подписку, если вы открыли страницу подписки на телевизоре",
-                "zh": "如果你已在电视上打开订阅页面，点击下方按钮以添加订阅"
+                "en": "Open the subscription link and import it into your sing-box client.",
+                "ru": "Откройте ссылку подписки и импортируйте её в клиент sing-box."
               },
               "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Connect and use",
-                "fa": "متصل شوید و استفاده کنید",
-                "fr": "Se connecter et utiliser",
-                "ru": "Подключение и использование",
-                "zh": "连接并使用"
-              },
-              "buttons": [],
-              "svgIconKey": "Check",
-              "description": {
-                "en": "Open the app and connect to the server",
-                "fa": "برنامه را باز کنید و به سرور متصل شوید",
-                "fr": "Ouvre l’app et connecte‑toi au serveur.",
-                "ru": "Откройте приложение и подключитесь к серверу",
-                "zh": "打开应用并连接到服务器"
-              },
-              "svgIconColor": "teal"
             }
           ],
-          "featured": true,
-          "svgIconKey": "Happ"
-        }
-      ],
-      "svgIconKey": "TV",
-      "displayName": {
-        "en": "Apple TV",
-        "fa": "Apple TV",
-        "fr": "Apple TV",
-        "ru": "Apple TV",
-        "zh": "Apple TV"
-      }
-    },
-    "windows": {
-      "apps": [
+          "featured": false,
+          "svgIconKey": "Singbox"
+        },
         {
           "name": "Clash Mi",
           "blocks": [
             {
               "title": {
-                "en": "App Installation",
-                "fa": "نصب برنامه",
-                "fr": "Installation de l'application",
-                "ru": "Установка приложения",
-                "zh": "应用安装"
-              },
-              "buttons": [
-                {
-                  "link": "https://clashmi.app/download",
-                  "text": {
-                    "en": "Download",
-                    "fa": "دانلود",
-                    "fr": "Télécharger",
-                    "ru": "Скачать",
-                    "zh": "下载"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "DownloadIcon",
-              "description": {
-                "en": "Open the download page and install the app.",
-                "fa": "صفحه دانلود را باز کرده و برنامه را نصب کنید.",
-                "fr": "Ouvre la page de téléchargement et installe l’app.",
-                "ru": "Откройте страницу загрузки и установите приложение.",
-                "zh": "打开下载页面并安装应用。"
-              },
-              "svgIconColor": "blue"
-            },
-            {
-              "title": {
                 "en": "Add Subscription",
-                "fa": "اضافه کردن اشتراک",
-                "fr": "Ajouter une souscription",
-                "ru": "Добавление подписки",
-                "zh": "添加订阅"
+                "ru": "Добавление подписки"
               },
               "buttons": [
                 {
                   "link": "clashmi://install-config?xhwid=true&overwrite=no&name={{USERNAME}}&url={{SUBSCRIPTION_LINK}}",
                   "text": {
                     "en": "Add Subscription",
-                    "fa": "اضافه کردن اشتراک",
-                    "fr": "Ajouter une souscription",
-                    "ru": "Добавить подписку",
-                    "zh": "添加订阅"
+                    "ru": "Добавить подписку"
                   },
                   "type": "subscriptionLink",
                   "svgIconKey": "Plus"
@@ -1024,31 +162,9 @@
               "svgIconKey": "CloudDownload",
               "description": {
                 "en": "Click the button below — the app will open and the subscription will be added automatically",
-                "fa": "برای افزودن خودکار اشتراک روی دکمه زیر کلیک کنید - برنامه باز خواهد شد",
-                "fr": "Clique sur le bouton ci‑dessous — l’app s’ouvrira et l’abonnement sera ajouté automatiquement.",
-                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
-                "zh": "点击下方按钮，应用将会打开，并自动添加订阅"
+                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически."
               },
               "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Connect and use",
-                "fa": "متصل شوید و استفاده کنید",
-                "fr": "Se connecter et utiliser",
-                "ru": "Подключение и использование",
-                "zh": "连接并使用"
-              },
-              "buttons": [],
-              "svgIconKey": "Check",
-              "description": {
-                "en": "On the main screen, tap the Disconnected button, then in the VPN configuration prompt tap Allow and enter your password to connect.",
-                "fa": "در صفحه اصلی روی دکمه Disconnected بزنید، سپس در پنجره مجوز پیکربندی VPN روی Allow ضربه بزنید و برای اتصال، رمز عبور خود را وارد کنید.",
-                "fr": "Sur l’écran principal, appuie sur « Disconnected », puis, dans la demande de configuration VPN, appuie sur « Allow » et entre ton mot de passe pour te connecter.",
-                "ru": "На главной странице нажми кнопку Disconnected,  в появившемся окне разрешения VPN-конфигурации нажмите Allow и введите свой пароль для подключения к VPN.",
-                "zh": "在主屏幕点击 Disconnected 按钮，然后在 VPN 配置提示中点击允许并输入您的密码以连接。"
-              },
-              "svgIconColor": "teal"
             }
           ],
           "featured": true,
@@ -1059,53 +175,15 @@
           "blocks": [
             {
               "title": {
-                "en": "App Installation",
-                "fa": "نصب برنامه",
-                "fr": "Installation de l'application",
-                "ru": "Установка приложения",
-                "zh": "应用安装"
-              },
-              "buttons": [
-                {
-                  "link": "https://github.com/Happ-proxy/happ-desktop/releases/latest/download/setup-Happ.x64.exe",
-                  "text": {
-                    "en": "Windows",
-                    "fa": "ویندوز",
-                    "fr": "Windows",
-                    "ru": "Windows",
-                    "zh": "Windows"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "DownloadIcon",
-              "description": {
-                "en": "Choose the version for your device, click the button below and install the app.",
-                "fa": "نسخه مناسب برای دستگاه خود را انتخاب کنید، دکمه زیر را فشار دهید و برنامه را نصب کنید",
-                "fr": "Choisis la version pour ton appareil, clique sur le bouton ci‑dessous et installe l’app.",
-                "ru": "Выберите подходящую версию для вашего устройства, нажмите на кнопку ниже и установите приложение.",
-                "zh": "选择适合您设备的版本，点击下方按钮并安装应用程序。"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
                 "en": "Add Subscription",
-                "fa": "اضافه کردن اشتراک",
-                "fr": "Ajouter une souscription",
-                "ru": "Добавление подписки",
-                "zh": "添加订阅"
+                "ru": "Добавление подписки"
               },
               "buttons": [
                 {
                   "link": "happ://add/{{SUBSCRIPTION_LINK}}",
                   "text": {
                     "en": "Add Subscription",
-                    "fa": "اضافه کردن اشتراک",
-                    "fr": "Ajouter une souscription",
-                    "ru": "Добавить подписку",
-                    "zh": "添加订阅"
+                    "ru": "Добавить подписку"
                   },
                   "type": "subscriptionLink",
                   "svgIconKey": "Plus"
@@ -1114,31 +192,108 @@
               "svgIconKey": "CloudDownload",
               "description": {
                 "en": "Click the button below — the app will open and the subscription will be added automatically",
-                "fa": "برای افزودن خودکار اشتراک روی دکمه زیر کلیک کنید - برنامه باز خواهد شد",
-                "fr": "Clique sur le bouton ci‑dessous — l’app s’ouvrira et l’abonnement sera ajouté automatiquement.",
-                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
-                "zh": "点击下方按钮——应用将会打开，订阅会自动添加。"
+                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически."
               },
               "svgIconColor": "cyan"
-            },
+            }
+          ],
+          "featured": true,
+          "svgIconKey": "Happ"
+        }
+      ],
+      "svgIconKey": "AppleIcon",
+      "displayName": {
+        "en": "iOS",
+        "ru": "iOS"
+      }
+    },
+    "windows": {
+      "apps": [
+        {
+          "name": "sing-box",
+          "blocks": [
             {
               "title": {
-                "en": "Connect and use",
-                "fa": "متصل شوید و استفاده کنید",
-                "fr": "Se connecter et utiliser",
-                "ru": "Подключение и использование",
-                "zh": "连接并使用"
+                "en": "Add Subscription",
+                "ru": "Добавление подписки"
               },
-              "buttons": [],
-              "svgIconKey": "Check",
+              "buttons": [
+                {
+                  "link": "{{SUBSCRIPTION_LINK}}",
+                  "text": {
+                    "en": "Open Subscription Link",
+                    "ru": "Открыть ссылку подписки"
+                  },
+                  "type": "external",
+                  "svgIconKey": "ExternalLink"
+                }
+              ],
+              "svgIconKey": "CloudDownload",
               "description": {
-                "en": "In the main section, click the large power button in the center to connect to VPN. Don't forget to select a server from the server list. If needed, choose another server from the server list.",
-                "fa": "در بخش اصلی، دکمه بزرگ روشن/خاموش در مرکز را برای اتصال به VPN کلیک کنید. فراموش نکنید که یک سرور را از لیست سرورها انتخاب کنید. در صورت نیاز، سرور دیگری را از لیست سرورها انتخاب کنید.",
-                "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre.",
-                "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов.",
-                "zh": "在主界面，点击中央的大电源按钮以连接 VPN。不要忘记从服务器列表中选择服务器。如有需要，可选择其它服务器。"
+                "en": "Open the subscription link and import it into your sing-box client.",
+                "ru": "Откройте ссылку подписки и импортируйте её в клиент sing-box."
               },
-              "svgIconColor": "teal"
+              "svgIconColor": "cyan"
+            }
+          ],
+          "featured": false,
+          "svgIconKey": "Singbox"
+        },
+        {
+          "name": "Clash Mi",
+          "blocks": [
+            {
+              "title": {
+                "en": "Add Subscription",
+                "ru": "Добавление подписки"
+              },
+              "buttons": [
+                {
+                  "link": "clashmi://install-config?xhwid=true&overwrite=no&name={{USERNAME}}&url={{SUBSCRIPTION_LINK}}",
+                  "text": {
+                    "en": "Add Subscription",
+                    "ru": "Добавить подписку"
+                  },
+                  "type": "subscriptionLink",
+                  "svgIconKey": "Plus"
+                }
+              ],
+              "svgIconKey": "CloudDownload",
+              "description": {
+                "en": "Click the button below — the app will open and the subscription will be added automatically",
+                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически."
+              },
+              "svgIconColor": "cyan"
+            }
+          ],
+          "featured": true,
+          "svgIconKey": "ClashMi"
+        },
+        {
+          "name": "Happ",
+          "blocks": [
+            {
+              "title": {
+                "en": "Add Subscription",
+                "ru": "Добавление подписки"
+              },
+              "buttons": [
+                {
+                  "link": "happ://add/{{SUBSCRIPTION_LINK}}",
+                  "text": {
+                    "en": "Add Subscription",
+                    "ru": "Добавить подписку"
+                  },
+                  "type": "subscriptionLink",
+                  "svgIconKey": "Plus"
+                }
+              ],
+              "svgIconKey": "CloudDownload",
+              "description": {
+                "en": "Click the button below — the app will open and the subscription will be added automatically",
+                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически."
+              },
+              "svgIconColor": "cyan"
             }
           ],
           "featured": false,
@@ -1148,122 +303,25 @@
       "svgIconKey": "Windows",
       "displayName": {
         "en": "Windows",
-        "fa": "Windows",
-        "fr": "Windows",
-        "ru": "Windows",
-        "zh": "Windows"
+        "ru": "Windows"
       }
     },
-    "androidTV": {
+    "macos": {
       "apps": [
         {
-          "name": "Happ",
+          "name": "Clash Mi",
           "blocks": [
             {
               "title": {
-                "en": "App Installation",
-                "fa": "نصب برنامه",
-                "fr": "Installation de l'application",
-                "ru": "Установка приложения",
-                "zh": "应用安装"
-              },
-              "buttons": [
-                {
-                  "link": "https://play.google.com/store/apps/details?id=com.happproxy",
-                  "text": {
-                    "en": "Open in Google Play",
-                    "fa": "باز کردن در Google Play",
-                    "fr": "Ouvre dans Google Play",
-                    "ru": "Открыть в Google Play",
-                    "zh": "在 Google Play 打开"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                },
-                {
-                  "link": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
-                  "text": {
-                    "en": "Download APK",
-                    "fa": "دانلود APK",
-                    "fr": "Télécharge l’APK",
-                    "ru": "Скачать APK",
-                    "zh": "下载 APK"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "DownloadIcon",
-              "description": {
-                "en": "Open the page in Google Play and install the app. Or install the app directly from the APK file if Google Play is not working.",
-                "fa": "صفحه را در Google Play باز کنید و برنامه را نصب کنید. یا برنامه را مستقیماً از فایل APK نصب کنید، اگر Google Play کار نمی کند.",
-                "fr": "Ouvre la page dans Google Play et installe l’app. Si Google Play ne fonctionne pas, installe‑la directement via l’APK.",
-                "ru": "Откройте страницу в Google Play и установите приложение. Или установите приложение из APK файла напрямую, если Google Play не работает.",
-                "zh": "在 Google Play 打开页面并安装应用。如果 Google Play 无法使用，可直接通过 APK 文件安装应用。"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Installation instructions",
-                "fa": "دستورالعمل نصب",
-                "fr": "Installation instructions",
-                "ru": "Инструкции по установке",
-                "zh": "安装说明"
-              },
-              "buttons": [
-                {
-                  "link": "https://www.happ.su/main/ru/faq/android-tv",
-                  "text": {
-                    "en": "In Russian",
-                    "fa": "به زبان روسی",
-                    "fr": "In Russian",
-                    "ru": "На русском",
-                    "zh": "俄语"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                },
-                {
-                  "link": "https://www.happ.su/main/faq/android-tv",
-                  "text": {
-                    "en": "In English",
-                    "fa": "به زبان انگلیسی",
-                    "fr": "In English",
-                    "ru": "На английском",
-                    "zh": "英语"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "Gear",
-              "description": {
-                "en": "Detailed instructions to help you set up Happ on your device.",
-                "fa": "راهنمای دقیق برای کمک به تنظیم Happ روی دستگاه شما.",
-                "fr": "Detailed instructions to help you set up Happ on your device.",
-                "ru": "Подробные инструкции, чтобы помочь вам настроить Happ на вашем устройстве.",
-                "zh": "详细说明，帮助您在设备上设置 Happ。"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
                 "en": "Add Subscription",
-                "fa": "اضافه کردن اشتراک",
-                "fr": "Ajouter une souscription",
-                "ru": "Добавление подписки",
-                "zh": "添加订阅"
+                "ru": "Добавление подписки"
               },
               "buttons": [
                 {
-                  "link": "happ://add/{{SUBSCRIPTION_LINK}}",
+                  "link": "clashmi://install-config?xhwid=true&overwrite=no&name={{USERNAME}}&url={{SUBSCRIPTION_LINK}}",
                   "text": {
                     "en": "Add Subscription",
-                    "fa": "اضافه کردن اشتراک",
-                    "fr": "Ajouter une souscription",
-                    "ru": "Добавить подписку",
-                    "zh": "添加订阅"
+                    "ru": "Добавить подписку"
                   },
                   "type": "subscriptionLink",
                   "svgIconKey": "Plus"
@@ -1271,45 +329,50 @@
               ],
               "svgIconKey": "CloudDownload",
               "description": {
-                "en": "Click the button below to add subscription, if you opened the subscription page on your TV",
-                "fa": "برای افزودن اشتراک روی دکمه زیر کلیک کنید، اگر صفحه اشتراک را روی تلویزیون باز کرده‌اید",
-                "fr": "Click the button below to add subscription, if you opened the subscription page on your TV.",
-                "ru": "Нажмите кнопку ниже, чтобы добавить подписку, если вы открыли страницу подписки на телевизоре",
-                "zh": "如果你已在电视上打开订阅页面，点击下方按钮以添加订阅"
+                "en": "Click the button below — the app will open and the subscription will be added automatically",
+                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически."
               },
               "svgIconColor": "cyan"
-            },
+            }
+          ],
+          "featured": true,
+          "svgIconKey": "ClashMi"
+        },
+        {
+          "name": "Happ",
+          "blocks": [
             {
               "title": {
-                "en": "Connect and use",
-                "fa": "متصل شوید و استفاده کنید",
-                "fr": "Se connecter et utiliser",
-                "ru": "Подключение и использование",
-                "zh": "连接并使用"
+                "en": "Add Subscription",
+                "ru": "Добавление подписки"
               },
-              "buttons": [],
-              "svgIconKey": "Check",
+              "buttons": [
+                {
+                  "link": "happ://add/{{SUBSCRIPTION_LINK}}",
+                  "text": {
+                    "en": "Add Subscription",
+                    "ru": "Добавить подписку"
+                  },
+                  "type": "subscriptionLink",
+                  "svgIconKey": "Plus"
+                }
+              ],
+              "svgIconKey": "CloudDownload",
               "description": {
-                "en": "Open the app and connect to the server",
-                "fa": "برنامه را باز کنید و به سرور متصل شوید",
-                "fr": "Ouvre l’app et connecte‑toi au serveur.",
-                "ru": "Откройте приложение и подключитесь к серверу",
-                "zh": "打开应用并连接到服务器"
+                "en": "Click the button below — the app will open and the subscription will be added automatically",
+                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически."
               },
-              "svgIconColor": "teal"
+              "svgIconColor": "cyan"
             }
           ],
           "featured": true,
           "svgIconKey": "Happ"
         }
       ],
-      "svgIconKey": "TV",
+      "svgIconKey": "macOS",
       "displayName": {
-        "en": "Android TV",
-        "fa": "Android TV",
-        "fr": "Android TV",
-        "ru": "Android TV",
-        "zh": "Android TV"
+        "en": "macOS",
+        "ru": "macOS"
       }
     }
   },
@@ -1359,141 +422,84 @@
     "metaTitle": "Orion Subscription Page",
     "metaDescription": "Orion Subscription Page",
     "hideGetLinkButton": false,
-    "showConnectionKeys": true
+    "showConnectionKeys": false
   },
   "baseTranslations": {
     "name": {
       "en": "Username",
-      "fa": "نام کاربری",
-      "fr": "Nom d'utilisateur",
-      "ru": "Имя пользователя",
-      "zh": "用户名"
+      "ru": "Имя пользователя"
     },
     "active": {
       "en": "Active",
-      "fa": "فعال",
-      "fr": "Actif",
-      "ru": "Активна",
-      "zh": "活跃"
+      "ru": "Активна"
     },
     "status": {
       "en": "Status",
-      "fa": "وضعیت",
-      "fr": "Statut",
-      "ru": "Статус",
-      "zh": "状态"
+      "ru": "Статус"
     },
     "expired": {
       "en": "Expired",
-      "fa": "منقضی شده در",
-      "fr": "Expiré",
-      "ru": "Истекла",
-      "zh": "已于"
+      "ru": "Истекла"
     },
     "expires": {
       "en": "Expires",
-      "fa": "منقضی می‌شود",
-      "fr": "Expire",
-      "ru": "Истекает",
-      "zh": "到期时间"
+      "ru": "Истекает"
     },
     "getLink": {
       "en": "Get Link",
-      "fa": "دریافت لینک",
-      "fr": "Obtenir le lien",
-      "ru": "Получение ссылки",
-      "zh": "获取链接"
+      "ru": "Получение ссылки"
     },
     "unknown": {
       "en": "Unknown",
-      "fa": "نامعلوم",
-      "fr": "Inconnu",
-      "ru": "Неизвестно",
-      "zh": "未知"
+      "ru": "Неизвестно"
     },
     "copyLink": {
       "en": "Copy link",
-      "fa": "کپی لینک",
-      "fr": "Copier le lien",
-      "ru": "Скопировать ссылку",
-      "zh": "复制链接"
+      "ru": "Скопировать ссылку"
     },
     "inactive": {
       "en": "Inactive",
-      "fa": "غیرفعال",
-      "fr": "Inactif",
-      "ru": "Неактивна",
-      "zh": "未激活"
+      "ru": "Неактивна"
     },
     "bandwidth": {
       "en": "Bandwidth",
-      "fa": "پهنای باند",
-      "fr": "Bande passante",
-      "ru": "Трафик",
-      "zh": "流量"
+      "ru": "Трафик"
     },
     "expiresIn": {
       "en": "Expires",
-      "fa": "منقضی می‌شود در",
-      "fr": "Expire",
-      "ru": "Истекает",
-      "zh": "后到期"
+      "ru": "Истекает"
     },
     "linkCopied": {
       "en": "Likn copied",
-      "fa": "لینک کپی شد",
-      "fr": "Lien copié",
-      "ru": "Ссылка скопирована",
-      "zh": "链接已复制"
+      "ru": "Ссылка скопирована"
     },
     "scanQrCode": {
       "en": "Scan the QR code above in the client",
-      "fa": "کد QR بالا را در کلاینت اسکن کنید",
-      "fr": "Scannez le code QR ci-dessus dans le client",
-      "ru": "Отсканируйте QR-код в приложении",
-      "zh": "在客户端中扫描上方二维码"
+      "ru": "Отсканируйте QR-код в приложении"
     },
     "indefinitely": {
       "en": "Indefinitely",
-      "fa": "هیچوقت",
-      "fr": "Indéfiniment",
-      "ru": "Бессрочно",
-      "zh": "永久"
+      "ru": "Бессрочно"
     },
     "scanToImport": {
       "en": "Scan to import this key",
-      "fa": "برای وارد کردن این کلید اسکن کنید",
-      "fr": "Scannez pour importer cette clé",
-      "ru": "Отсканируйте QR-код для импорта ключа",
-      "zh": "扫描以导入此密钥"
+      "ru": "Отсканируйте QR-код для импорта ключа"
     },
     "connectionKeysHeader": {
       "en": "Connection Keys",
-      "fa": "کلیدهای اتصال",
-      "fr": "Clés de connexion",
-      "ru": "Ключи подключения",
-      "zh": "连接密钥"
+      "ru": "Ключи подключения"
     },
     "linkCopiedToClipboard": {
       "en": "Link copied to clipboard",
-      "fa": "لینک به کلیپ‌بورد کپی شد",
-      "fr": "Lien copié dans le presse-papiers",
-      "ru": "Ссылка скопирована в буфер обмена",
-      "zh": "链接已复制到剪贴板"
+      "ru": "Ссылка скопирована в буфер обмена"
     },
     "scanQrCodeDescription": {
       "en": "Easily add the subscription to any client. There's another option: copy the link below and paste it into the client",
-      "fa": "افزودن آسان اشتراک به هر کلاینت. گزینه دیگری هم وجود دارد: لینک زیر را کپی کرده و در کلاینت جای‌گذاری کنید",
-      "fr": "Ajoutez facilement l'abonnement à n'importe quel client. Il y a une autre option : copiez le lien ci-dessous et collez-le dans le client",
-      "ru": "Простое добавление подписки в любой клиент. Есть и другой вариант: скопируйте ссылку ниже и вставьте в клиент.",
-      "zh": "轻松将订阅添加到任何客户端。还有另一种选择：复制下面的链接并粘贴到客户端中"
+      "ru": "Простое добавление подписки в любой клиент. Есть и другой вариант: скопируйте ссылку ниже и вставьте в клиент."
     },
     "installationGuideHeader": {
       "en": "Installation",
-      "fa": "نصب",
-      "fr": "Installation",
-      "ru": "Установка",
-      "zh": "安装"
+      "ru": "Установка"
     }
   },
   "brandingSettings": {
