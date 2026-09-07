@@ -21,12 +21,12 @@
               },
               "buttons": [
                 {
-                  "link": "{{SUBSCRIPTION_LINK}}",
+                  "link": "sing-box://import-remote-profile/?url={{SUBSCRIPTION_LINK}}#{{USERNAME}}",
                   "text": {
                     "en": "Open Subscription Link",
                     "ru": "Открыть ссылку подписки"
                   },
-                  "type": "external",
+                  "type": "subscriptionLink",
                   "svgIconKey": "ExternalLink"
                 }
               ],
@@ -42,7 +42,7 @@
           "svgIconKey": "Singbox"
         },
         {
-          "name": "Clash Mi",
+          "name": "Clash",
           "blocks": [
             {
               "title": {
@@ -51,7 +51,7 @@
               },
               "buttons": [
                 {
-                  "link": "clashmi://install-config?xhwid=true&overwrite=no&name={{USERNAME}}&url={{SUBSCRIPTION_LINK}}",
+                  "link": "clash://install-config/?url={{SUBSCRIPTION_LINK}}&overwrite=no&name={{USERNAME}}",
                   "text": {
                     "en": "Add Subscription",
                     "ru": "Добавить подписку"
@@ -120,12 +120,12 @@
               },
               "buttons": [
                 {
-                  "link": "{{SUBSCRIPTION_LINK}}",
+                  "link": "sing-box://import-remote-profile/?url={{SUBSCRIPTION_LINK}}#{{USERNAME}}",
                   "text": {
                     "en": "Open Subscription Link",
                     "ru": "Открыть ссылку подписки"
                   },
-                  "type": "external",
+                  "type": "subscriptionLink",
                   "svgIconKey": "ExternalLink"
                 }
               ],
@@ -141,7 +141,7 @@
           "svgIconKey": "Singbox"
         },
         {
-          "name": "Clash Mi",
+          "name": "Clash",
           "blocks": [
             {
               "title": {
@@ -150,7 +150,7 @@
               },
               "buttons": [
                 {
-                  "link": "clashmi://install-config?xhwid=true&overwrite=no&name={{USERNAME}}&url={{SUBSCRIPTION_LINK}}",
+                  "link": "clash://install-config/?url={{SUBSCRIPTION_LINK}}&overwrite=no&name={{USERNAME}}",
                   "text": {
                     "en": "Add Subscription",
                     "ru": "Добавить подписку"
@@ -219,12 +219,12 @@
               },
               "buttons": [
                 {
-                  "link": "{{SUBSCRIPTION_LINK}}",
+                  "link": "sing-box://import-remote-profile/?url={{SUBSCRIPTION_LINK}}#{{USERNAME}}",
                   "text": {
                     "en": "Open Subscription Link",
                     "ru": "Открыть ссылку подписки"
                   },
-                  "type": "external",
+                  "type": "subscriptionLink",
                   "svgIconKey": "ExternalLink"
                 }
               ],
@@ -240,7 +240,7 @@
           "svgIconKey": "Singbox"
         },
         {
-          "name": "Clash Mi",
+          "name": "Clash",
           "blocks": [
             {
               "title": {
@@ -249,7 +249,7 @@
               },
               "buttons": [
                 {
-                  "link": "clashmi://install-config?xhwid=true&overwrite=no&name={{USERNAME}}&url={{SUBSCRIPTION_LINK}}",
+                  "link": "clash://install-config/?url={{SUBSCRIPTION_LINK}}&overwrite=no&name={{USERNAME}}",
                   "text": {
                     "en": "Add Subscription",
                     "ru": "Добавить подписку"
@@ -309,7 +309,7 @@
     "macos": {
       "apps": [
         {
-          "name": "Clash Mi",
+          "name": "Clash",
           "blocks": [
             {
               "title": {
@@ -318,7 +318,7 @@
               },
               "buttons": [
                 {
-                  "link": "clashmi://install-config?xhwid=true&overwrite=no&name={{USERNAME}}&url={{SUBSCRIPTION_LINK}}",
+                  "link": "clash://install-config/?url={{SUBSCRIPTION_LINK}}&overwrite=no&name={{USERNAME}}",
                   "text": {
                     "en": "Add Subscription",
                     "ru": "Добавить подписку"
