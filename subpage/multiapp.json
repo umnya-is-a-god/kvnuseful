@@ -38,7 +38,6 @@
               "svgIconColor": "cyan"
             }
           ],
-          "featured": false,
           "svgIconKey": "Singbox"
         },
         {
@@ -68,7 +67,6 @@
               "svgIconColor": "cyan"
             }
           ],
-          "featured": true,
           "svgIconKey": "ClashMi"
         },
         {
@@ -98,7 +96,6 @@
               "svgIconColor": "cyan"
             }
           ],
-          "featured": true,
           "svgIconKey": "Happ"
         }
       ],
@@ -137,7 +134,6 @@
               "svgIconColor": "cyan"
             }
           ],
-          "featured": false,
           "svgIconKey": "Singbox"
         },
         {
@@ -167,7 +163,6 @@
               "svgIconColor": "cyan"
             }
           ],
-          "featured": true,
           "svgIconKey": "ClashMi"
         },
         {
@@ -197,7 +192,6 @@
               "svgIconColor": "cyan"
             }
           ],
-          "featured": true,
           "svgIconKey": "Happ"
         }
       ],
@@ -236,7 +230,6 @@
               "svgIconColor": "cyan"
             }
           ],
-          "featured": false,
           "svgIconKey": "Singbox"
         },
         {
@@ -266,7 +259,6 @@
               "svgIconColor": "cyan"
             }
           ],
-          "featured": true,
           "svgIconKey": "ClashMi"
         },
         {
@@ -296,7 +288,6 @@
               "svgIconColor": "cyan"
             }
           ],
-          "featured": false,
           "svgIconKey": "Happ"
         }
       ],
@@ -335,7 +326,6 @@
               "svgIconColor": "cyan"
             }
           ],
-          "featured": true,
           "svgIconKey": "ClashMi"
         },
         {
@@ -365,7 +355,6 @@
               "svgIconColor": "cyan"
             }
           ],
-          "featured": true,
           "svgIconKey": "Happ"
         }
       ],
@@ -504,7 +493,6 @@
   },
   "brandingSettings": {
     "title": "Orion multiapp",
-    "logoUrl": "https://raw.githubusercontent.com/arpicme/Proxy-App-Icon-set/refs/heads/main/white_background/Prizrak-box.svg",
-    "supportUrl": "https://t.me/legiz_trashbag"
+    "logoUrl": "https://raw.githubusercontent.com/arpicme/Proxy-App-Icon-set/refs/heads/main/white_background/Prizrak-box.svg"
   }
 }
